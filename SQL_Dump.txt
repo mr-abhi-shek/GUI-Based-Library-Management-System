@@ -1,0 +1,81 @@
+''' 
+CREATE TABLE books (
+Title VARCHAR(30) NOT NULL,
+Author VARCHAR(30) NOT NULL,
+Publisher VARCHAR(30) NOT NULL,
+Publication_Date DATE NOT NULL,
+Genre VARCHAR(30) NOT NULL,
+Language VARCHAR(30) NOT NULL,
+Number_of_Pages INT NOT NULL,
+Edition VARCHAR(30) NOT NULL,
+Number_of_Books INT NOT NULL,
+Price INT NOT NULL,
+Book_ID VARCHAR(15) NOT NULL PRIMARY KEY,
+Cover_Image VARCHAR(255) NOT NULL
+);
+ 
+'''
+books Table
+Purpose: This table stores detailed information about all the books available in the library.
+What it contains:
+	-Title, Author, and Publisher of the book.
+	-The Genre (e.g., Fiction, Non-fiction) and Language (e.g., English, Hindi) of the book.
+	-Number of pages, edition, and publication date.
+	-Unique Book ID for each book.
+	-Number of copies available in the library.
+	-Price of the book.
+	-Cover Image: A file path or URL to the book's cover.
+
+'''
+CREATE TABLE profiles (
+    Member_ID VARCHAR(15) NOT NULL PRIMARY KEY,
+    Password VARCHAR(15) NOT NULL,
+    Role VARCHAR(6),
+    Name VARCHAR(30),
+    Contact_Number BIGINT,
+    Email VARCHAR(20),
+    DOB DATE,
+    Communication_Address VARCHAR(30),
+    Registration_Date DATE,
+    profile_image VARCHAR(255),
+    gender VARCHAR(10) NOT NULL,
+    Occupation VARCHAR(20) NOT NULL
+);
+
+'''
+
+profiles Table
+Purpose: This table maintains the profile details of library members, including admins and regular users.
+What it contains:
+	-Unique Member ID for each user.
+	-Member's Password for login and their Role (Admin or User).
+	-Personal details like Name, Contact Number, Email, and Gender.
+	-Address information stored in the Communication Address field.
+	-Date of Birth and Registration Date of the member.
+	-An optional profile image for identification purposes.
+	-Occupation to understand the member's professional background.
+
+
+'''
+CREATE TABLE books_issue (
+    member_id VARCHAR(15),
+    book_id VARCHAR(15),
+    Issue_Date DATE,
+    Due_Date DATE,
+    Status VARCHAR(50),
+    Token_Number VARCHAR(15) NOT NULL PRIMARY KEY,
+    return_date VARCHAR(15)
+);
+
+'''
+
+books_issue Table
+Purpose: Tracks all book transactions, such as when books are issued and returned.
+What it contains:
+	-Member ID: Indicates who issued the book.
+	-Book ID: Specifies which book was issued.
+	-Issue Date: When the book was issued.
+	-Due Date: When the book must be returned.
+	-Return Date: When the book was actually returned.
+	-Status: Indicates if the book is currently issued, returned, or overdue.
+	--Token Number: A unique identifier for each transaction.

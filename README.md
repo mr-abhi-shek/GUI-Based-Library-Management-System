@@ -65,26 +65,3 @@ The **Library Management System** is a GUI-based application developed using Pyt
 Login: Enter admin credentials to access the system.
 Dashboard: Navigate through the features to manage books, members, and transactions.
 Logout: Securely log out after use.
-
-
-## 🗂️ Folder Structure
-
-Library-Management-System/
-├── Add_Book_Window.py
-├── Add_Member_Window.py
-├── Admin_Dashboard.py
-├── Delete_Book_Window.py
-├── Delete_Member_Window.py
-├── Edit_Book_Window.py
-├── Edit_Member_Window.py
-├── icon/
-├── Issue_Book_Window.py
-├── Login_Activity.py
-├── Populate_Member_Info.py
-├── README.md
-├── Return_Book_Window.py
-├── Search_Book_Window.py
-├── Search_Member_Window.py
-├── requirements.txt
-├── useable_module.py
-└── screenshots/

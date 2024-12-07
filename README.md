@@ -1,6 +1,4 @@
-# Creating a README.md content for the Library Management System project
-readme_content = """
-# Library Management System
+# GUI Based Library Management System
 
 ## 📚 Project Overview
 
@@ -27,6 +25,18 @@ The **Library Management System** is a GUI-based application developed using Pyt
 | **Delete Book** | **Search Book** |
 |--------------|------------------------|
 | ![Add Book](screenshots/delete_book.png) | ![Update Book](screenshots/search_book.png) |
+
+| **Add Member** | **Update Member** |
+|--------------|------------------------|
+| ![Add Book](screenshots/add_member.png) | ![Update Book](screenshots/update_member.png) |
+
+| **Delete Member** | **Search Member** |
+|--------------|------------------------|
+| ![Add Book](screenshots/delete_memeber.png) | ![Update Book](screenshots/search_member.png) |
+
+| **Issue Book** | **Return Book** |
+|--------------|------------------------|
+| ![Add Book](screenshots/issue_book.png) | ![Update Book](screenshots/return_book.png) |
 
 
 

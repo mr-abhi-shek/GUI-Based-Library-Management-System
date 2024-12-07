@@ -72,7 +72,7 @@ The system ensures data integrity and supports multiple roles (admin and member)
    ```bash
    python Login_Activity.py
 
-##🚀 Usage
+## 🚀 Usage
 - **Login:** Enter admin credentials to access the system.
 - **Dashboard:** Navigate through the features to manage books, members, and transactions.
 - **Logout:** Securely log out after use.

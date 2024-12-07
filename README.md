@@ -32,11 +32,11 @@ The **Library Management System** is a GUI-based application developed using Pyt
 
 | **Delete Member** | **Search Member** |
 |--------------|------------------------|
-| ![Add Book](screenshots/delete_memeber.png) | ![Update Book](screenshots/search_member.png) |
+| ![Delete Member](screenshots/delete_member.png) | ![Search Member](screenshots/search_member.png) |
 
 | **Issue Book** | **Return Book** |
 |--------------|------------------------|
-| ![Add Book](screenshots/issue_book.png) | ![Update Book](screenshots/return_book.png) |
+| ![Issue Book](screenshots/issue_book.png) | ![Return Book](screenshots/return_book.png) |
 
 
 

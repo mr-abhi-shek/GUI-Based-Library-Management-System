@@ -39,9 +39,6 @@ The **Library Management System** is a GUI-based application developed using Pyt
 | ![Issue Book](screenshots/issue_book.png) | ![Return Book](screenshots/return_book.png) |
 
 
-
-> **Note:** Replace `screenshots/<image_name>.png` with the actual image paths once added to your repository.
-
 ## 🛠️ Installation
 
 1. Clone this repository:

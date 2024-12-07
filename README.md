@@ -46,4 +46,4 @@ The **Library Management System** is a GUI-based application developed using Pyt
 
 1. Clone this repository:
    ```bash
-   git clone https://github.com/<your-username>/Library-Management-System.git
+   git clone https://github.com/mr-abhi-shek/GUI-Based-Library-Management-System.git

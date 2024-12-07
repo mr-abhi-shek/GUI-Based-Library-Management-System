@@ -54,8 +54,8 @@ The **Library Management System** is a GUI-based application developed using Pyt
    pip install -r requirements.txt
 
 4. Set up the MySQL database:
-   -Create a database named library_database.
-   -Import the provided SQL dump file to set up tables.
+   Create a database named library_database.
+   Import the provided SQL dump file to set up tables.
 
 5. Run the application:
    ```bash

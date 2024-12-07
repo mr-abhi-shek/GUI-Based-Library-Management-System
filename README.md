@@ -18,11 +18,17 @@ The **Library Management System** is a GUI-based application developed using Pyt
 
 | **Login Window** | **Admin Dashboard** |
 |-------------------|----------------------|
-| ![Login Screenshot](screenshots/login_window.png) | ![Dashboard Screenshot](screenshots/admin_dashboard.png) |
+| ![Login](screenshots/login_window.png) | ![Dashboard](screenshots/admin_dashboard.png) |
 
-| **Add Book** | **Member Management** |
+| **Add Book** | **Update Book** |
 |--------------|------------------------|
-| ![Add Book Screenshot](screenshots/add_book.png) | ![Member Management Screenshot](screenshots/member_management.png) |
+| ![Add Book](screenshots/add_book.png) | ![Update Book](screenshots/update_book.png) |
+
+| **Delete Book** | **Search Book** |
+|--------------|------------------------|
+| ![Add Book](screenshots/delete_book.png) | ![Update Book](screenshots/search_book.png) |
+
+
 
 > **Note:** Replace `screenshots/<image_name>.png` with the actual image paths once added to your repository.
 

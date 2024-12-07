@@ -1,8 +1,12 @@
 # GUI Based Library Management System
 
-## 📚 Project Overview
+## 📚 Project Description
 
 The **Library Management System** is a GUI-based application developed using Python and MySQL. It simplifies library operations by allowing users to manage books, members, and transactions efficiently. The system includes features for adding, editing, deleting, searching, and managing book and member records, along with issuing and returning books.
+
+This Library Management System (LMS) is a GUI-based application designed to streamline and automate library operations. The system provides an efficient way to manage books, members, and transactions like book issuance and returns. Built with Python and MySQL, this application uses the customtkinter library for an enhanced GUI experience, delivering a modern and user-friendly interface.
+
+The system ensures data integrity and supports multiple roles (admin and member) for better management.
 
 ## ✨ Features
 
@@ -11,6 +15,13 @@ The **Library Management System** is a GUI-based application developed using Pyt
 - **Issue & Return:** Handle book issuance and returns with transaction records.
 - **User Roles:** Support for admin roles to manage the system.
 - **Interactive Dashboard:** View and manage all system activities from a central dashboard.
+
+## Technical Stack
+- **Programming Language:** Python
+- **GUI Framework:** customtkinter
+- **Database**: MySQL
+- **IDE**: Any Python-compatible IDE (e.g., PyCharm, VS Code)
+
 
 ## 🖼️ Screenshots
 

@@ -44,6 +44,27 @@ The **Library Management System** is a GUI-based application developed using Pyt
 1. Clone this repository:
    ```bash
    git clone https://github.com/mr-abhi-shek/GUI-Based-Library-Management-System.git
+   
+2. Navigate to the project directory:
+   ```bash
+   cd GUI-Based-Library-Management-System
+
+3. Install required dependencies:
+   ```bash
+   pip install -r requirements.txt
+
+4. Set up the MySQL database:
+   -Create a database named library_database.
+   -Import the provided SQL dump file to set up tables.
+
+5. Run the application:
+   ```bash
+   python Login_Activity.py
+
+🚀 Usage
+Login: Enter admin credentials to access the system.
+Dashboard: Navigate through the features to manage books, members, and transactions.
+Logout: Securely log out after use.
 
 
 ## 🗂️ Folder Structure
